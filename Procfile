@@ -1,2 +1,1 @@
-web:python bot_handlers.py
-
+web: gunicorn run_server:server
